@@ -180,6 +180,22 @@
                                     <action selector="del:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6d7-ut-IoE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KxR-z1-DDZ">
+                                <rect key="frame" x="52" y="465" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="1/x"/>
+                                <connections>
+                                    <action selector="ds:" destination="BYZ-38-t0r" eventType="touchUpInside" id="me5-Ff-8lL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XVe-i3-XbW">
+                                <rect key="frame" x="145" y="465" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="x*"/>
+                                <connections>
+                                    <action selector="pf:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Plf-2I-tXp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.59760672459999997" green="0.55682571240000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

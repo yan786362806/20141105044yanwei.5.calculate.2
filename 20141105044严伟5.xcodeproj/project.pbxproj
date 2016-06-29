@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					401B8C431D20B0B000E7C62D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M5U4BN2DFN;
 					};
 					401B8C571D20B0B000E7C62D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -399,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "20141105044严伟5/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imnu.-0141105044--5";
@@ -410,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "20141105044严伟5/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imnu.-0141105044--5";
@@ -482,6 +485,7 @@
 				401B8C6E1D20B0B000E7C62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		401B8C6F1D20B0B000E7C62D /* Build configuration list for PBXNativeTarget "20141105044严伟5Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +494,7 @@
 				401B8C711D20B0B000E7C62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		401B8C721D20B0B000E7C62D /* Build configuration list for PBXNativeTarget "20141105044严伟5UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +503,7 @@
 				401B8C741D20B0B000E7C62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

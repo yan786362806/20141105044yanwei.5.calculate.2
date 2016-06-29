@@ -63,7 +63,7 @@ class ViewController: UIViewController {
                 }
             }
         }
-        
+        flag=0
     }
     
     @IBAction func add(sender: AnyObject) {
@@ -126,17 +126,37 @@ class ViewController: UIViewController {
         x.text="\(temp)"
     }
     
-// @IBAction func del(sender: AnyObject) {
-        //var str=x.text!
-        //if str !=""{
-        //str.removeAtIndex(str.endIndex.predecessor())
-        //    x.text=str
-        //}
-        //else{
-        //    x.text="0"
-        //}
+    @IBAction func ds(sender: AnyObject) {
+        if(x.text != "0"){
+        temp=(Double)(x.text!)!
+            temp=1/temp
+            x.text="\(temp)"
+        }
+            else{
+            x.text="0不能当除数"
+            }
+        pointval = false
+    }
+    
+    @IBAction func pf(sender: AnyObject) {
+        temp=(Double)(x.text!)!
+        temp=temp*temp
+        x.text="\(temp)"
+        pointval = false
         
-    //}
+    }
+    
+ @IBAction func del(sender: AnyObject) {
+        var str=x.text!
+    if str != ""{
+        str.removeAtIndex(str.endIndex.predecessor())
+            x.text=str
+        }
+        else{
+            x.text="0"
+        }
+        
+    }
     @IBAction func no0(sender: AnyObject) {
         x.text=x.text!+"0"
     }
